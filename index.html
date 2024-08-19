@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+
+    <link rel="stylesheet" href="src/style/styles.css" />
+
+    <link rel="icon" href="./note.png" sizes="512x512" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/992c0d743d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <note-header></note-header>
+    </header>
+    <main>
+      <div class="block" hidden>
+        <add-new-notes></add-new-notes>
+      </div>
+      <note-list></note-list>
+    </main>
+    <footer>
+      <footer-note></footer-note>
+    </footer>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
